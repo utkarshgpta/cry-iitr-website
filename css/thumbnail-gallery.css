@@ -1,0 +1,20 @@
+.thumb {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+#header {
+	background-color: black;
+	color: white;
+}
+
+#head {
+	font-family: 'Pacifico', cursive;
+	color: yellow;
+	font-size: 40px;
+	text-align: center;
+	padding-bottom: 10px;
+}
