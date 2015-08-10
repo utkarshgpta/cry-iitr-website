@@ -1010,6 +1010,7 @@ hr.center-diamond {
 #services {
     background-color: burlywood;
 }
+<<<<<<< HEAD
 
 .scroll-top-wrapper {
     position: fixed;
@@ -1047,3 +1048,5 @@ hr.center-diamond {
 .scroll-top-wrapper i.fa {
     line-height: inherit;
 }
+=======
+>>>>>>> 4f41afd7b3737a40c6b55cc3d4ce79d2bf1d1dd5
