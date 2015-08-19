@@ -979,12 +979,10 @@ hr.center-diamond {
 
 .box {
     height: auto;
-    width: 60%;
-    margin-left: 5%;
     background-color: rgba(101,153,255,0.75);
-    -webkit-border-radius: 10%;
-    -moz-border-radius: 10%;
-    border-radius: 10%;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
 }
 
 .about-text {
