@@ -1181,3 +1181,7 @@ hr.line {
 .thumbnail {
     border: none;
 }
+
+#facts {
+    text-align: left;
+}
