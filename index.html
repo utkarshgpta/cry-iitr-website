@@ -9,16 +9,18 @@
     <meta name="description" content="CRY IIT Roorkee : Ensuring everlasting change!">
 
     <title>CRY IIT Roorkee Chapter</title>
-    <link rel="shortcut icon" href="favicon.ico" >
+    <link rel="shortcut icon" href="favicon.ico">
 
     <!-- Bootstrap Core CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+    <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.1/animate.min.css" rel="stylesheet"> -->
     <link href="css/agency.css" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
+    <!-- Custom Fonts --> 
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=PT+Sans:700,400' rel='stylesheet' type='text/css'>
@@ -43,7 +45,7 @@
 	}(document, 'script', 'facebook-jssdk'));</script>
     
     <!-- Navigation -->
-    <nav class="wow fadeInDown navbar navbar-default navbar-fixed-top" data-wow-delay="0.7s">
+    <nav class="wow fadeInDown navbar navbar-default navbar-fixed-top" data-wow-delay="1.0s">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header page-scroll">
@@ -54,7 +56,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    CRY IIT-R
+                    <p><img src="logo.png"/><span style="font-size:1.5em">&nbsp;IITR</span></p>
                 </a>
             </div>
 
@@ -71,7 +73,7 @@
                         <a class="page-scroll" href="#recent">Recent Works</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#team">Team</a>
+                        <a class="page-scroll" id="nav-team" href="#team">Team</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -110,7 +112,7 @@
     </header>
 
     <!-- About Section-->
-    <section id="about" style="background-image: url('img/about-back.jpg');">
+    <section id="about"  style="background-image: url('img/about-back.jpg');">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -122,10 +124,10 @@
                 <div class="col-lg-12">
                     <ul class="timeline">
                         <li>
-                            <div class="timeline-image wow bounceIn" data-wow-delay="0.4s">
+                            <div class="timeline-image wow bounceIn" data-wow-delay="0.1s">
                                 <img class="img-circle img-responsive" src="img/about/4.jpg" alt="">
                             </div>
-                            <div class="wow timeline-panel wow slideInLeft about-text-light" data-wow-delay="0.7s">
+                            <div class="wow timeline-panel wow slideInLeft about-text-light" data-wow-delay="0.1s">
                                 <div class="timeline-heading">
                                     <h4>April 2012</h4>
                                     <h4 class="subheading">Our Humble Beginnings</h4>
@@ -136,10 +138,10 @@
                             </div>
                         </li>
                         <li class="timeline-inverted">
-                            <div class="timeline-image wow bounceIn" data-wow-delay="0.4s">
+                            <div class="timeline-image wow bounceIn" data-wow-delay="0.1s">
                                 <img class="img-circle img-responsive" src="img/about/1.jpg" alt="Who we are ?">
                             </div>
-                            <div class="timeline-panel wow slideInRight about-text-light" data-wow-delay="0.7s">
+                            <div class="timeline-panel wow slideInRight about-text-light" data-wow-delay="0.1s">
                                 <div class="timeline-heading">
                                     <h4>Who We Are ?</h4>
                                 </div>
@@ -149,10 +151,10 @@
                             </div>
                         </li>
                         <li>
-                            <div class="timeline-image wow bounceIn about-text-light" data-wow-delay="0.4s">
+                            <div class="timeline-image wow bounceIn about-text-light" data-wow-delay="0.1s">
                                 <img class="img-circle img-responsive" src="img/about/2.jpg" alt="">
                             </div>
-                            <div class="timeline-panel wow slideInLeft about-text-light" data-wow-delay="0.7s">
+                            <div class="timeline-panel wow slideInLeft about-text-light" data-wow-delay="0.1s">
                                 <div class="timeline-heading">
                                     <h4>What We Do ?</h4>
                                 </div>
@@ -163,20 +165,20 @@
                             </div>
                         </li>
                         <li class="timeline-inverted">
-                            <div class="timeline-image wow bounceIn" data-wow-delay="0.4s">
+                            <div class="timeline-image wow bounceIn" data-wow-delay="0.1s">
                                 <img class="img-circle img-responsive" src="img/about/3.jpg" alt="">
                             </div>
-                            <div class="timeline-panel wow slideInRight about-text-light" data-wow-delay="0.7s">
+                            <div class="timeline-panel wow slideInRight about-text-light" data-wow-delay="0.1s">
                                 <div class="timeline-heading">
                                     <h4>How We Do ?</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Each volunteer takes out time from studies and works towards the cause. We get monetary help from the students and professors in the campus through donations. We also set up stalls during fests to raise awareness for this great cause. We get help from the students and the professors in the campus who come forward to support us in our initiatives.</p>
+                                    <p class="text-muted">Each volunteer takes out time from studies and works towards the cause. We get help from the students and the professors in the campus who come forward to support us in our initiatives. We also set up stalls during fests to raise awareness for this great cause.</p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted"><a href="#contact" class="page-scroll">
-                            <div class="timeline-image wow bounceIn" data-wow-delay="0.4s">
+                            <div class="timeline-image wow bounceIn" data-wow-delay="0.1s">
                                 <h4>Be a Part
                                     <br>Of Our
                                     <br>Story !</h4>
@@ -314,6 +316,7 @@
             </div>
 
             <div class="row text-center">
+               
                 <div class="col-lg-4 col-md-8 col-sm-12">
                     <div class="panel panel-default blocks">
                         <div class="panel-body">
@@ -594,7 +597,7 @@
                 </div> 
                 <div class="col-lg-2 text-center">
                     <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                    <p><a href="mailto:cryroorkeechapter@gmal.com">cryroorkeechapter@gmal.com</a></p>
+                    <p><a href="mailto:cryroorkeechapter@gmail.com">cryroorkeechapter@gmail.com</a></p>
                 </div>
             </div>
 
@@ -719,9 +722,11 @@
     </div>
 
     <!-- jQuery -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script> -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script> -->
     <script src="js/bootstrap.min.js"></script>
 
     <!-- Plugin JavaScript -->
@@ -752,7 +757,7 @@
 		    	var out = "";
 		    	j = 6*(i-1);
 		    	for( ; j<(6*i); j++) {
-			        out += '<div class="col-lg-2"><div class="team-member"><img src="' + root + arr[j].url + '" class="img-responsive img-circle"><h4>' + arr[j].name + '</h4></div></div>'
+			        out += '<div class="col-lg-2 col-md-2 col-sm-2"><div class="team-member"><img src="' + root + arr[j].url + '" class="img-responsive img-circle"><h4>' + arr[j].name + '</h4></div></div>'
 			    }
 			    var row_id = "row0".concat(i.toString()) ;
 			    document.getElementById(row_id).innerHTML = out;
@@ -772,7 +777,7 @@
 
 		    	var out = "";
 		    	for( j=l; j<u; j++) {
-			        out += '<div class="col-lg-2"><div class="team-member"><img src="' + root + arr[j].url + '" class="img-responsive img-circle"><h4>' + arr[j].name + '</h4></div></div>'
+			        out += '<div class="col-lg-2 col-md-2 col-sm-2"><div class="team-member"><img src="' + root + arr[j].url + '" class="img-responsive img-circle"><h4>' + arr[j].name + '</h4></div></div>'
 			    }
 			    l = u;
 			    var row_id = "mod_row0".concat(i.toString()) ;

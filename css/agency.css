@@ -165,11 +165,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    color: #fcac45;
+    color: white;
     text-transform: uppercase;
     font-family: 'Indie Flower', cursive;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 10px;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -255,6 +255,8 @@ fieldset[disabled] .btn-xl.active {
         font-size: 1.5em;
     }
 }
+
+/** Header **/
 
 header {
     text-align: center;
@@ -682,6 +684,15 @@ section h3.section-subheading {
     margin: 0;
 }
 
+@media (max-width: 768px) {
+    section#team{
+        display: none;
+    }
+    #nav-team{
+        display: none;
+    }
+}
+
 section#contact {
     padding: 100px 0;
     background-color: #00796B;
@@ -951,15 +962,6 @@ a.fa.fa-angle-down:hover{
     }
 }
 
-@media(max-width:993px) {
-
-}
-
-
-
-
-
-
 
 
 .box {
@@ -1069,6 +1071,13 @@ hr.line {
 .about-text-light {
     background-color: rgba(221, 221, 221, 0.75);
     border-radius: 30px;
+}
+
+@media (max-width: 768px){
+    .about-text-light{
+        background-color: transparent;
+        border-radius: 0px;
+    }
 }
 
 /** Volunteers Speak **/

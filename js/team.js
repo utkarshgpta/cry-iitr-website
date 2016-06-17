@@ -36,6 +36,10 @@ arr = [
 "url": "ankit.jpg"
 },
 {
+"name": "Geeta Singh",
+"url": "geeta.jpg"
+},
+{
 "name": "Prapti Rathod",
 "url": "prapti.jpg"
 },
@@ -81,7 +85,7 @@ arr = [
 },
 {
 "name": "Utkarsh Gupta",
-"url": "Utkarsh.jpg"
+"url": "utkarsh.jpg"
 },
 {
 "name": "Sourav Tripathi",
