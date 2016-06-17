@@ -272,8 +272,8 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 13em;
+    padding-bottom: 3.125em;
 }
 
 header .intro-text .intro-lead-in {
@@ -288,12 +288,21 @@ header .intro-text .intro-heading {
     color: #cfcfcf;
 }
 
-@media(min-width:768px) {
-    header .intro-text {
-        padding-top: 250px;
-        padding-bottom: 200px;
-    }
+header .intro-lead-in>.color {
+    color: #fcac45;
+    font-style: bold;
+    font-weight: bold;
+    font-size: 1.4em;
+}
 
+header .intro-heading>.color {
+    color: #fcac45;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+@media(min-width:768px) {
     header .intro-text .intro-heading {
         margin-bottom: 10px;
         text-transform: uppercase;
@@ -302,11 +311,8 @@ header .intro-text .intro-heading {
         line-height: 75px;
     }
 
-    header .intro-heading>.color {
-        color: #fcac45;
-        font-style: bold;
-        font-weight: 700;
-        font-size: 50px;
+    header .intro-text {
+        padding-top: 15.625em;
     }
 
     header .intro-text .intro-lead-in {
@@ -314,13 +320,6 @@ header .intro-text .intro-heading {
         font-size: 25px;
         font-family: 'PT Sans', sans-serif;
         line-height: 40px;
-    }
-
-    header .intro-lead-in>.color {
-        color: #fcac45;
-        font-style: bold;
-        font-weight: bold;
-        font-size: 30px;
     }
 }
 
@@ -918,8 +917,8 @@ a.fa.fa-angle-down {
     background-color: rgba(0, 0, 0, 0.25);
     border: 2px solid #b4b4b4;
     border-radius: 50%;
-    font-size: 24px;
-    margin-top: 200px;
+    font-size: 1.5em;
+    margin-top: 150px;
     transition: all 0.5s;
 }
 a.fa.fa-angle-down:hover{
