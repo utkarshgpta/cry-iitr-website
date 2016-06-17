@@ -864,6 +864,12 @@ hr.line {
     -o-background-size: cover;
 }
 
+@media (max-width: 768px) {
+    #recent {
+        background: #9c7f43;
+    }
+}
+
 .btn-info {
     color: #fff;
     background-color: #43609C;
