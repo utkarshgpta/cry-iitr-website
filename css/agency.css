@@ -580,6 +580,7 @@ section h3.section-subheading {
     margin-top: 10px;
     margin-bottom: 0;
     text-transform: none;
+    font-size: 1em;
 }
 
 #team{
@@ -619,15 +620,6 @@ section h3.section-subheading {
 #team .team-hover .team-hover-content h3,
 #team .team-hover .team-hover-content h4 {
     margin: 0;
-}
-
-@media (max-width: 768px) {
-    section#team{
-        display: none;
-    }
-    #nav-team{
-        display: none;
-    }
 }
 
 section#contact {

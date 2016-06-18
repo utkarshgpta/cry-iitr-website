@@ -121,5 +121,39 @@ arr = [
 }
 ];
 
-team_info(arr);
-modal_team_info(arr);
+recent_works = [
+{"news": "Fun Events organised for students who came to IIT Roorkee under the initiative of SIIRD IIT Roorkee",
+"url":"https://www.facebook.com/CRY.Roorkee/posts/1207664429260592",
+"date":""
+},
+{"news":"Organisation of events like Sparsh and Pic-O-Mania in Thomso'15 to raise funds.",
+"url":"https://www.facebook.com/CRY.Roorkee/posts/1199998556693846",
+"date":""
+},
+{"news":"Survey in Khanjarpur",
+"url":"",
+"date":""
+},
+{"news":"Recruitment of new voluteers in the group",
+"url":"",
+"date":""
+},
+{"news":"Donation of clothes collected from Sarojini and Kasturba Bhawan in Kasturba Gandhi Balika Vidhyala,Roorkee.",
+"url":"https://www.facebook.com/CRY.Roorkee/posts/1178184252208610",
+"date":""
+},
+{"news":"Drawing and Rakhi making competition held in KGBV on the occasion of Rakshabandhan",
+"url":"https://www.facebook.com/CRY.Roorkee/timeline/story?ut=43&wstart=0&wend=1448956799&hash=5034263663512705672&pagefilter=3",
+"date":""
+},
+{"news":"",
+"url":"",
+"date":""
+},
+];
+
+var width = screen.width;
+var columns = 6;
+if (width<768)  columns = 4;
+team_info(arr,5,columns,"main");
+team_info(arr,Math.ceil(arr.length/columns),columns,"modal");
