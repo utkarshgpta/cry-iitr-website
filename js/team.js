@@ -155,5 +155,5 @@ recent_works = [
 var width = screen.width;
 var columns = 6;
 if (width<768)  columns = 4;
-team_info(arr,5,columns,"main");
+team_info(arr,4,columns,"main");
 team_info(arr,Math.ceil(arr.length/columns),columns,"modal");
