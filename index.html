@@ -344,60 +344,11 @@
                 
                 <div id="facts" class="col-lg-4 col-md-6 col-sm-12">
                     <div class="panel panel-default blocks">
-                        <div class="panel-heading blocks">
-                            <b>Facts about Child Rights</b></div>
+                        <div class="panel-heading blocks text-center">
+                            <b>Facts about Child Rights in India</b></div>
                         <div class="panel-body">
                             <ul class="facts list-unstyled">
-                                        <li class="news-item">Children constitute over one-third of India’s population of 1.21 billion people, which means India is home to <b>400 million</b> children.
-                                        <hr></li>
-                                        <li class="news-item">Every sixth child in the world lives in India (Ministry of Statistics and Programme Implementation- MoSPI, 2012)
-                                        <hr></li>
-                                        <li class="news-item">India has 10.12 million child labourers aged between 5 to 14 years (National Census 2011)
-                                        <hr></li>
-                                        <li class="news-item">An estimated 11.6 lakh children die every year within one year of their birth due to lack of immunisation. (Ministry of Health and Family Welfare, Government of India)
-                                        <hr></li>
-                                        <li class="news-item">Vaccine preventable diseases (VPDs) are still responsible for over 5 lakh deaths annually in India.
-                                        <hr></li>
-                                        <li class="news-item">As per Coverage Evaluation Survey (CES-2009), 61% of children aged 12-23 months in the country are Fully Immunized with all vaccines. Nearly 8% children in the same age group did not receive a single vaccine in 2009.
-                                        <hr></li>
-                                        <li class="news-item">A slight gender differential noted, with 62% of the male children having received full immunization, as against 60% of females (Ministry of Statistics and Programme Implementation (MOSPI), 2012
-                                        <hr></li>
-                                        <li class="news-item">Roughly 50% of all working children are girls (data from government reports)
-                                        <hr></li>
-                                        <li class="news-item">Out of the 400 million children in India, every second child is malnourished (National Family Health Survey III – NFHS, 2005-06)
-                                        <hr></li>
-                                        <li class="news-item">In India the child sex ratio is at the lowest it has ever been with just 914 girls for every 1000 boys (Census, 2011)
-                                        <hr></li>
-                                        <li class="news-item">Maternal Mortality Ratio (MMR) in India continues to be high at 212 per 100,000 live births (Sample Registration System - SRS, 2011)
-                                        <hr></li>
-                                        <li class="news-item">Girls in India have 61% higher mortality than boys at age 1-4 years (National Family Health Survey III - NFHS)
-                                        <hr></li>
-                                        <li class="news-item">In India 22% babies are born with low birth weight (National Family Health Survey III - NFHS)
-                                        <hr></li>
-                                        <li class="news-item">In India about 55% of Scheduled Castes and Scheduled Tribes children under 3 years of age are underweight compared to about 37% of children from the general population of 400 million children (National Family Health Survey III - NFHS)
-                                        <hr></li>
-                                        <li class="news-item">The Under-5 Mortality Rate (U5MR) in India is 88.1% for Schedule Caste and 95.7% for Schedule Tribe children, against the national average of 59.2% (National Family Health Survey III - NFHS)
-                                        <hr></li>
-                                        <li class="news-item">In India 47 out of every 1000 live births do not complete their first year of life ((Sample Registration System - SRS, 2011)
-                                        <hr></li>
-                                        <li class="news-item">79% children of the 400 million in India (6-35 months) are anaemic (National Family Health Survey III - NFHS)
-                                        <hr></li>
-                                        <li class="news-item">56% adolescent girls (15-19 years) in India are anaemic, as against 30% adolescent boys (National Family Health Survey III - NFHS)
-                                        <hr></li>
-                                        <li class="news-item">Only 54% children of the 400 million in India receive full immunization (District Level Household & Facility Survey III - DLHI, 2007-08)
-                                        <hr></li>
-                                        <li class="news-item">Over 25% increase in child murders is noted since 2000 in India (National Crime Records Bureau - NCRB, 2011)
-                                        <hr></li>
-                                        <li class="news-item">The Net Enrollment Ratio (NER) at the Upper Primary Elementary Level in government schools in India is only 58.3% (Ministry of Statistics and Programme Implementation - MoSPI, 2012)
-                                        <hr></li>
-                                        <li class="news-item">Gross Enrollment Ratio (GER) at the Secondary Level in government schools in India is below 50% (District Information System for Education - DISE, 2011-12)
-                                        <hr></li>
-                                        <li class="news-item">About 35% children in India with disabilities remain out of Elementary school (District Information System for Education - DISE, 2011-12)
-                                        <hr></li>
-                                        <li class="news-item">School dropout rate amongst adolescent girls in India is as high as 63.5% (Ministry of Statistics and Programme Implementation - MoSPI, 2012)
-                                        <hr></li>
-                                        <li class="news-item">Nearly 45% girls In India get married before the age of eighteen years (National Family Health Survey III - NFHS)
-                                        <hr></li>
+                                
                             </ul>
                         </div>
                         <div class="panel-footer"></div>
@@ -740,6 +691,14 @@
                 var know_more = (recent_works[i].url == "") ? "" : ( '<a href="' + recent_works[i].url + '" target="_t">Know more</a>' ) ;
                 var text = '<li class="news-item"><div class="row"><div class="col-lg-12">' + recent_works[i].news + '</div><div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 pull-left text-left"><small><b><i>' + recent_works[i].date + '</i></b></small></div><div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 text-right">' + know_more +'</div></div><hr/></li>';
                 $("#recent-works").append(text);
+            }
+        }
+
+        function facts(facts_display) {
+            var i = 0;
+            for(i=0;i<facts_display.length;i++) {
+                var text = '<li class="news-item">' + facts_display[i].fact + '<hr></li>';
+                $(".facts").append(text);
             }
         }
 	</script>
