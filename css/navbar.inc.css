@@ -6,7 +6,7 @@
 .navbar-default .navbar-brand {
     color: #fcac45;
     text-transform: uppercase;
-    font-family: 'Indie Flower', cursive;
+    font-size: 1.8em;
     font-weight: bolder; 
     -webkit-transition: all .5s;
     -moz-transition: all .5s;
