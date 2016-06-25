@@ -42,6 +42,7 @@
 }
 
 .navbar-default .nav li a {
+    margin-bottom: 1em;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -71,7 +72,7 @@
 }
 
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
-    color: #555;
+    color: #fed136;
     background-color: transparent;
 } 
 
@@ -100,11 +101,12 @@
 }
 
 .navbar-nav > li > a, .navbar-brand {
-    padding-top:0px !important; padding-bottom:0 !important;
+    padding-bottom:0 !important;
     height: 10px;
 }
 .navbar {min-height:10px !important;}
 
 .navbar-nav>li>.dropdown-menu {
-	margin-top: 22px;
+    margin-top: 1.25em;
+    background-color: #222;
 }
