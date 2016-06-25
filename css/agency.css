@@ -135,6 +135,16 @@ fieldset[disabled] .btn-primary.active {
     background-image: none;
 }
 
+.navbar-default .navbar-nav .open .dropdown-menu>li>a{
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .navbar-default .navbar-nav .open .dropdown-menu>li>a{
+        color: white;
+    }
+}
+
 .btn-xl.disabled,
 .btn-xl[disabled],
 fieldset[disabled] .btn-xl,
