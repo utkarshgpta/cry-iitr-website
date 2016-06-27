@@ -10,4 +10,4 @@ $(function() {
 });
 
 document.getElementById("year").innerHTML =
-"CRY, IIT Rookee Chapter " + new Date().getFullYear();
+"&copy; " + new Date().getFullYear() + ", CRY IIT Rookee Chapter";
