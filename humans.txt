@@ -1,0 +1,13 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Utkarsh Gupta -- Student at IIT Roorkee and Web Developer -- @UtkarshGpta
+    About me - about.me/UtkarshGpta
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
+    jQuery, Modernizr
+    Bootstrap3
