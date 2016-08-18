@@ -122,6 +122,18 @@ arr = [
 ];
 
 recent_works = [
+{"news": "Rakshabandhan Celebration in Majra",
+"url":"#",
+"date":"August 18,2016"
+},
+{"news": "Independance Day Celebration at Balkunj",
+"url":"#",
+"date":"August 15,2016"
+},
+{"news": "Donation distribution in Rampur",
+"url":"https://www.facebook.com/CRY.Roorkee/posts/1412546915439008",
+"date":"August 7,2016"
+},
 {"news": "Fun Events organised for students who came to IIT Roorkee under the initiative of SIIRD IIT Roorkee",
 "url":"https://www.facebook.com/CRY.Roorkee/posts/1207664429260592",
 "date":"November 1,2015"
