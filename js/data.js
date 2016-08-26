@@ -4,6 +4,10 @@ arr = [
 "url": "vini.jpg"
 },
 {
+"name": "Mrinmoy Sinha",
+"url": "mrinmoy.jpg"
+},
+{
 "name": "Prateeksha Maurya",
 "url": "prateeksha.jpg"
 },
@@ -36,12 +40,28 @@ arr = [
 "url": "ankit.jpg"
 },
 {
+"name": "Apeksha Aggarwal",
+"url": "apeksha.jpg"
+},
+{
 "name": "Geeta Singh",
 "url": "geeta.jpg"
 },
 {
 "name": "Prapti Rathod",
 "url": "prapti.jpg"
+},
+{
+"name": "Keerti Chauhan",
+"url": "keerti.jpg"
+},
+{
+"name": "Shalu Hans",
+"url": "shalu.jpg"
+},
+{
+"name": "Varsha Agarwal",
+"url": "varsha.jpg"
 },
 {
 "name": "Anita Kumari",
@@ -58,6 +78,34 @@ arr = [
 {
 "name": "Sweta Panwar",
 "url": "sweta.jpg"
+},
+{
+"name": "Aditya Patkar",
+"url": "aditya.jpg"
+},
+{
+"name": "Parnica Sharma",
+"url": "parnica.jpg"
+},
+{
+"name": "Farhan Raza Khan",
+"url": "farhan.jpg"
+},
+{
+"name": "Jaina Shivnani",
+"url": "jaina.jpg"
+},
+{
+"name": "Pradip Kumar",
+"url": "pradip.jpg"
+},
+{
+"name": "Ishita Bhatnagar",
+"url": "ishita.jpg"
+},
+{
+"name": "Rahul Sharma",
+"url": "rahul.jpg"
 },
 {
 "name": "Jatinder Singh",
@@ -116,8 +164,24 @@ arr = [
 "url": "priyatham.jpg"
 },
 {
+"name": "Shubham Kumar",
+"url": "shubham.jpg"
+},
+{
 "name": "Abhishek Kumar",
 "url": "abhishek-kumar.jpg"
+},
+{
+"name": "Souvik Show",
+"url": "souvik.jpg"
+},
+{
+"name": "Mohanlal Parihar",
+"url": "mohanlal.jpg"
+},
+{
+"name": "Iqbal Khan",
+"url": "iqbal.jpg"
 }
 ];
 
